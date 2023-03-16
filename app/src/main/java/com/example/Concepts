@@ -1,0 +1,13 @@
+1.CorutineScope
+2.Dispatchers
+3.withContext(RUNS IN SERIES)
+4.async await.(RUNS IN PARALLEL)
+5.suspend.
+6.coroutineScope AND supervisorScope
+7.USE OF join???????
+
+
+
+
+REFERENCE FOR JOBS : https://www.geeksforgeeks.org/jobs-waiting-cancellation-in-kotlin-coroutines/
+

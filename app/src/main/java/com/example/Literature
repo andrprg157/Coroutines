@@ -1,0 +1,20 @@
+1.JOB
+  a.Whenever a new coroutine is launched, it will return a job.
+    a.1.  it can be used to wait for the coroutine to do some work.... join() method
+    a.2.  it can be used to cancel the coroutine..... cancel() method
+
+ b.
+withTimeOut()......TIME CONCEPT
+isActive.......CHECKS IS COROUTINE JOB IS CANCELLED
+cancel() Method
+join() Method
+
+
+
+ ****************  DEFINITION **************************
+
+ A Job is a cancellable thing with a life-cycle that culminates in its completion.
+  job is created with launch coroutine builder. It runs a specified block of code and completes on
+  completion of this block.
+
+ ****************  DEFINITION **************************

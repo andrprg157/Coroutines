@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/btnsimplecorutine"
+    android:text="Simple Coroutine"
+    android:onClick="callSimpleCorutineexample"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btncallcorutineparallel"
+        android:text="PARALLEL API CALL"
+        android:onClick="callparalleeCorutineexample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/btncallcorutineseries"
+        android:text="SERIES API CALL"
+        android:onClick="callseriesCorutineexample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btncalljobjoin"
+        android:text="JOB JOIN  CALL"
+        android:onClick="calljobjoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btncalljobcancel"
+        android:text="JOB CANCEL  CALL"
+        android:onClick="calljobcancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btncalljobisactive"
+        android:text="JOB ISACTIVE  CALL"
+        android:onClick="calljobisactive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btncalljobtimeout"
+        android:text="JOB WITHTIMEOUT  CALL"
+        android:onClick="calljobiwithtimeout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btncallcorutinewithretutnval"
+        android:text="COROUTINE RETURNING VALUE"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
